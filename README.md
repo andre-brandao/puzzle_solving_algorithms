@@ -12,7 +12,7 @@ The algorithms are used to solve the 8-puzzle problem. The 8-puzzle problem is a
 
 ## How search algorithms work
 
-![App Screenshot 2](rdme_images/algorithm.png)
+![App Screenshot 2](rdme_images/puzzle_search.jpg)
 
 For each valid move it creates a new board and compares it to the goal board. If the new board is the goal board, the algorithm stops and returns the solution. If the new board is not the goal board, it adds the new board to the queue and continues to the next valid move. The algorithm continues until it finds the goal board or the queue is empty.
 
